@@ -40,10 +40,6 @@ $ mv node-v6.11.5-linux-x64 node
 ```
 
 ```sh
-$ ls node/bin
-$ echo ${PATH} /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-$ export PATH=${PATH}:`pwd`/node/bin
-$ echo ${PATH} /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ivan/workspace/node/bin
 $ mkdir scripts
 $ cat > scripts/activate<<EOF
 export PATH=\${PATH}:`pwd`/node/bin
